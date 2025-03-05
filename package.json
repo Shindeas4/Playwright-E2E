@@ -1,0 +1,22 @@
+{
+  "name": "e2e-ui",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "prod-test": "NODE_ENV=prod npx playwright test",
+    "uat-test": "NODE_ENV=uat npx playwright test",
+    "dev-test": "NODE_ENV=dev npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.5"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "faker": "^5.5.3"
+  }
+}
